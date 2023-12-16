@@ -13,6 +13,8 @@ Sales Recording: "I want to record each sale and have it automatically update my
 Report Generation: "It would be great to generate reports showing what's selling well and what's low in
 stock."
 
+![Screenshot 2023-12-16 at 7 01 01 PM](https://github.com/ChrizRoy/prsoftwareservices/assets/84273309/6d404106-f860-4eed-b80e-24ead74573e3)
+
 Project 2: Expense Tracker
 "I'm a small business owner and struggle to keep tabs on my expenses. Is there a tool you can develop that
 helps me manage my spending more effectively?"
