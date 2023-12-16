@@ -13,7 +13,7 @@ Sales Recording: "I want to record each sale and have it automatically update my
 Report Generation: "It would be great to generate reports showing what's selling well and what's low in
 stock."
 
-**Solutions: **
+****Solutions**: **
 [View Code](https://github.com/ChrizRoy/prsoftwareservices/blob/main/Project%201/InventoryManagement.java)
 [View Screenshot](https://github.com/ChrizRoy/prsoftwareservices/tree/main/Project%201/Screenshots)
 
