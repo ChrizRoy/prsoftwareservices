@@ -1,4 +1,4 @@
-# Internship task
+# Internship Task
 
 ### Project 1: Inventory Management System
 "I run a small retail store and struggle to keep track of my inventory. Can you create a software solution that
