@@ -13,6 +13,10 @@ Sales Recording: "I want to record each sale and have it automatically update my
 Report Generation: "It would be great to generate reports showing what's selling well and what's low in
 stock."
 
+**Solution**
+[View Code](https://github.com/ChrizRoy/prsoftwareservices/blob/main/Project%201/InventoryManagement.java)
+[View Screenshot](https://github.com/ChrizRoy/prsoftwareservices/tree/main/Project%201/Screenshots)
+
 ### Project 2: Expense Tracker
 "I'm a small business owner and struggle to keep tabs on my expenses. Is there a tool you can develop that
 helps me manage my spending more effectively?"
@@ -26,3 +30,7 @@ Visualization of Expenses: "It would be helpful to see graphs or charts that vis
 patterns."
 Reminder System: "Can the tool remind me when certain bills are due or when I'm approaching my budget
 limits?"
+
+**Solution**
+[View Code](https://github.com/ChrizRoy/prsoftwareservices/blob/main/Project%202/ExpenseTracker.java)
+[View Screenshot](https://github.com/ChrizRoy/prsoftwareservices/tree/main/Project%202/Screenshots)
