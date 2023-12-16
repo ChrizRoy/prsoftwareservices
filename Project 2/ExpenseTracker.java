@@ -13,13 +13,12 @@ public class ExpenseTracker {
             System.out.println("2. Set Budget");
             System.out.println("3. View Expenses");
             System.out.println("4. View Budgets");
-            System.out.println("5. View Spending Visualization");
-            System.out.println("6. Set Reminder");
-            System.out.println("7. Exit");
+            System.out.println("5. Set Reminder");
+            System.out.println("6. Exit");
 
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -35,13 +34,10 @@ public class ExpenseTracker {
                     viewBudgets();
                     break;
                 case 5:
-                    viewSpendingVisualization();
-                    break;
-                case 6:
                     setReminder();
                     break;
-                case 7:
-                    System.out.println("Exiting the program. Thank you!");
+                case 6:
+                    System.out.println("Exiting the program.");
                     System.exit(0);
                     break;
                 default:
@@ -56,7 +52,7 @@ public class ExpenseTracker {
 
         System.out.print("Enter expense amount: ");
         double amount = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
 
         expenses.put(category, expenses.getOrDefault(category, 0.0) + amount);
         System.out.println("Expense logged successfully.");
@@ -68,8 +64,7 @@ public class ExpenseTracker {
 
         System.out.print("Enter budget amount: ");
         double amount = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
-
+        scanner.nextLine(); 
         budgets.put(category, amount);
         System.out.println("Budget set successfully.");
     }
@@ -77,20 +72,15 @@ public class ExpenseTracker {
     private static void viewExpenses() {
         System.out.println("Expense History:");
         for (Map.Entry<String, Double> entry : expenses.entrySet()) {
-            System.out.println("Category: " + entry.getKey() + ", Amount: $" + entry.getValue());
+            System.out.println("Category: " + entry.getKey() + ", Amount: Rs" + entry.getValue());
         }
     }
 
     private static void viewBudgets() {
         System.out.println("Budgets:");
         for (Map.Entry<String, Double> entry : budgets.entrySet()) {
-            System.out.println("Category: " + entry.getKey() + ", Budget: $" + entry.getValue());
+            System.out.println("Category: " + entry.getKey() + ", Budget: Rs" + entry.getValue());
         }
-    }
-
-    private static void viewSpendingVisualization() {
-        System.out.println("Spending Visualization: (Graphs/Charts would be displayed here)");
-        // Visualization logic would be implemented here based on the data
     }
 
     private static void setReminder() {
