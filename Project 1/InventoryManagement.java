@@ -33,7 +33,7 @@ public class InventoryManagement {
                     generateReports();
                     break;
                 case 6:
-                    System.out.println("Exiting the program. Thank you!");
+                    System.out.println("Exiting the program.");
                     System.exit(0);
                     break;
                 default:
@@ -53,8 +53,7 @@ public class InventoryManagement {
             String productName = sc.nextLine();
             System.out.print("Enter initial stock quantity: ");
             int initialStock = sc.nextInt();
-            sc.nextLine(); // Consume the newline character
-
+            sc.nextLine(); 
             Product newProduct = new Product(productName, initialStock);
             inventory.put(productId, newProduct);
             System.out.println("Product added successfully.");
@@ -68,7 +67,7 @@ public class InventoryManagement {
         if (inventory.containsKey(productId)) {
             System.out.print("Enter new stock quantity: ");
             int newStock = sc.nextInt();
-            sc.nextLine(); // Consume the newline character
+            sc.nextLine(); 
 
             Product product = inventory.get(productId);
             product.setStockQuantity(newStock);
@@ -99,7 +98,7 @@ public class InventoryManagement {
 
             System.out.print("Enter quantity to sell: ");
             int quantitySold = sc.nextInt();
-            sc.nextLine(); // Consume the newline character
+            sc.nextLine(); 
 
             if (product.sell(quantitySold)) {
                 System.out.println("Sale recorded successfully.");
